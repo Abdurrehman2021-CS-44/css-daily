@@ -31,3 +31,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 969px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
