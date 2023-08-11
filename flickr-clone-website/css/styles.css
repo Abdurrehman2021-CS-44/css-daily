@@ -27,9 +27,40 @@ body {
 }
 
 .nav-search {
-    width: 50%;
+    width: 57%;
     height: 35px;
     border: 0;
     border-radius: 5px;
     padding-left: 10px;
+    margin-left: 20px;
+}
+
+.nav-buttons {
+    margin-right: 50px;
+}
+
+.btn {
+    padding: 6px 14px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-login {
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.btn-sign-up {
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+}
+
+.btn-sign-up:hover {
+    color: gray;
+    cursor: pointer;
 }
