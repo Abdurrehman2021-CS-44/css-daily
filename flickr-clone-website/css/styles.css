@@ -64,3 +64,23 @@ body {
     color: gray;
     cursor: pointer;
 }
+
+.foot-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+    background-color: black;
+    color: rgb(88, 132, 132);
+
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.foot-item:hover {
+    color: white;
+}
