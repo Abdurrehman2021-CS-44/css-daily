@@ -1,12 +1,9 @@
-html {
-    margin: 0;
-    padding: 0;
-}
-
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    height: 75%;
 }
 
 .nav-bar {
@@ -17,6 +14,10 @@ body {
 
     margin: 0;
     padding: 0;
+
+    position: absolute;
+    top: 0;
+    width: 100%;
 
     background-color: rgba(0, 0, 0, 0.316);
     color: white;
@@ -103,7 +104,11 @@ body {
 .main-content {
     text-align: center;
 
-    padding: 7% 27%;
+    padding: 10% 27%;
+    color: black;
+
+    animation-name: images;
+    animation-duration: 4s;
 }
 
 .main-content h1{
@@ -125,4 +130,20 @@ body {
 
 .main-content button:hover{
     cursor: pointer;
+}
+
+@keyframes images {
+    0% {
+    }
+    25% {
+    }
+    50% {
+        
+    }
+    75% {
+        
+    }
+    100% {
+        
+    }
 }
