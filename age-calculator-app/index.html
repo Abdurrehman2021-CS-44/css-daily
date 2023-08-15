@@ -15,7 +15,7 @@
   <div class="container">
     <div class="input input-day">
       <p>Day</p>
-      <input type="number" value="1" min="1" max="12" onchange="changeDay(this.value)">
+      <input type="number" value="1" min="1" onchange="changeDay(this.value)">
     </div>
   
     <div class="input input-month">
@@ -51,16 +51,31 @@
     month.textContent = 1;
     day.textContent = 1;
 
+    const currentDate = new Date();
+
     function changeDay(value){
-      day.textContent = value;
+      day.textContent = value - currentDate.getDay();
+      // console.log(month.textContent);
+      if (parseInt(month.textContent)%2 !== 0) {
+        if (value == 31) {
+        }
+      } else if (month.textContent == 2) {
+        if (value == 28) {
+          day.textContent = 28;
+        }
+      } else {
+        if (value == 30) {
+          day.textContent = 30;
+        }
+      }
     }
 
     const changeMonth = (value) => {
-      month.textContent = value;
+      month.textContent = currentDate.getMonth() - value;
     }
 
     const changeYear = (value) => {
-      year.textContent = value;
+      year.textContent = currentDate.getFullYear() - value;
     }
 
   </script>
