@@ -4,24 +4,24 @@ let day =document.getElementById("calculated-day");
 
 const currentDate = new Date();
 
-year.textContent = 1970;
+year.textContent = 53;
 month.textContent = 1;
 day.textContent = 1;
 
 function changeDay(value){
     day.textContent = value - currentDate.getDay();
     if (parseInt(month.textContent)%2 !== 0) {
-    if (value == 31) {
-        day.textContent = 28;
-    }
+        if (value == 31) {
+            day.textContent = 28;
+        }
     } else if (month.textContent == 2) {
-    if (value == 28) {
-        day.textContent = 28;
-    }
+        if (value == 28) {
+            day.textContent = 28;
+        }
     } else {
-    if (value == 30) {
-        day.textContent = 30;
-    }
+        if (value == 30) {
+            day.textContent = 30;
+        }
     }
 }
 
