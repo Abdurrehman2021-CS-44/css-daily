@@ -1,8 +1,12 @@
 .container{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 
     color: white;
+    height: 100vh;
 }
 
 .container div{
@@ -13,7 +17,7 @@
     height: 100px;
     width: 100px;
     background-color: blue;
-    
+    align-self: flex-start;
 }
 
 .red{
@@ -26,10 +30,12 @@
     height: 100px;
     width: 100px;
     background-color: yellow;
+    color: black;
 }
 
 .black{
     height: 100px;
     width: 100px;
     background-color: black;
+    align-self: flex-start;
 }
