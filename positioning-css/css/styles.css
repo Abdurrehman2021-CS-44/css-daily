@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    background-color: red;
+
+    position: relative;
+    left: 100px;
+}
+
+.blue {
+    background-color: blue;
+
+    position: absolute;
+    left: 200px;
+}
+
+.grey {
+    background-color: grey;
+
+    position: fixed;
+}
+
+.purple {
+    background-color: purple;
+
+    position: sticky;
+    top: 200px;
+    left: 100px;
+}
