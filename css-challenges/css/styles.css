@@ -3,6 +3,11 @@ body {
 }
 
 p {
-    font-size: 32px;
-    width: min-content;
+    font-size: 25px;
+}
+
+span {
+    padding: 40px 9px;
+    background-color: black;
+    color: white;
 }
