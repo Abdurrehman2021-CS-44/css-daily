@@ -1,7 +1,38 @@
-.open {
+body {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
+    height: 90vh;
+}
+
+button {
+    padding: 12px 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.open {
+    transition: 0.3s;
+}
+
+.open:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 .close {
-    
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.close:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
