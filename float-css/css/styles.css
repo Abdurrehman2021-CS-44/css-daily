@@ -1,15 +1,39 @@
-.thomas-shelby-image {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5% 5%;
+}
 
+.thomas-shelby-image {
+    float: left;
+    
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+
+    border-radius: 100%;
+}
+
+.thomas-shelby-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .title {
+    margin: 0;
 
+    font-size: 70px;
 }
 
 .sub-title {
+    position: relative;
+    bottom: 20px;
 
+    font-size: 20px;
 }
 
 .desc {
-    
+    text-align: justify;
+
+    font-size: 18px;
 }
