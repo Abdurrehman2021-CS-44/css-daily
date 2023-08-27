@@ -99,10 +99,6 @@ button:hover{
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-
     background-color: rgb(26, 25, 25);
     color: rgb(66, 162, 162);
     width: 100%;
@@ -114,4 +110,31 @@ button:hover{
 .footer p{
     padding: 15px 35px;
     margin: 0;
+}
+
+.foot-1 {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+}
+
+.foot-2 {
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    border-top: 1px solid rgba(209, 203, 203, 0.454);
+}
+
+.foot-2 div{
+    display: flex;
+    gap: 1px;
+}
+
+.foot-2 div p{
+    padding-left: 40px;
+    padding-right: 0;
 }
