@@ -4,6 +4,8 @@ body {
     background-color: rgb(40, 37, 37);
     color: white;
     text-align: center;
+
+    padding: 0;
 }
 
 ul {
@@ -97,5 +99,19 @@ button:hover{
 }
 
 .footer {
-    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgb(26, 25, 25);
+    color: rgb(66, 162, 162);
+    width: 100%;
+
+    text-align: left;
+    font-size: 17px;
+}
+
+.footer p{
+    padding: 15px 35px;
+    margin: 0;
 }
