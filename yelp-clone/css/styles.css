@@ -1,0 +1,44 @@
+body {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px;
+}
+
+.nav-title {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+.nav-search {
+    width: 50%;
+}
+
+.nav-search input{
+    font-size: 17px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 13px;
+    margin: 0;
+    border-top: 1px solid white;
+    width: 80%;
+}
+
+.nav-search button{
+    font-size: 23px;
+    margin: 0;
+    padding: 10px 15px;
+    border: 0;
+    position: relative;
+    top: 2px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
