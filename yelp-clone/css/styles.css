@@ -22,6 +22,8 @@ nav {
 
 .nav-search {
     width: 50%;
+    position: relative;
+    left: 37px;
 }
 
 .nav-search input{
@@ -55,7 +57,7 @@ nav {
     background: none;
     color: white;
     border: 0;
-    width: 11%;
+    width: 12%;
     font-size: 15px;
     padding: 10px;
     transition: 0.3s;
