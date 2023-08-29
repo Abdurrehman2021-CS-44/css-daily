@@ -6,7 +6,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.493);
     padding: 10px;
 }
 
@@ -41,4 +41,38 @@ nav {
     background-color: red;
     color: white;
     border-radius: 0 5px 5px 0;
+}
+
+.nav-select-option {
+    background: none;
+    color: white;
+    border: 0;
+    width: 11%;
+    font-size: 15px;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.nav-select-option option{
+    background-color: white;
+    color: black;
+}
+
+.nav-select-option:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.179);
+    border-radius: 10px;
+}
+
+.nav-review {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.nav-review:hover{
+    background-color: rgba(255, 255, 255, 0.179);
+    border-radius: 10px;
 }
