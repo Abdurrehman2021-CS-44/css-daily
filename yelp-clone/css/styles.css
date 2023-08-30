@@ -10,8 +10,13 @@ nav {
     align-items: baseline;
     background-color: rgba(0, 0, 0, 0.493);
     padding: 10px;
-}
 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.5%;
+}
+/* <div class="heroBackground__09f24__KUbZJ" style="opacity: 1; background-image: url(&quot;&quot;);"></div> */
 .nav-title {
     margin: 0;
     font-size: 28px;
@@ -117,4 +122,15 @@ nav {
 
 .btn-login:hover{
     background-color: rgba(255, 255, 255, 0.179);
+}
+
+.image-wrapper {
+    height: 95vh;
+    width: 100%;
+}
+
+.image-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
