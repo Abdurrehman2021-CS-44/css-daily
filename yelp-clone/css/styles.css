@@ -215,7 +215,8 @@ nav {
     justify-content: space-around;
     gap: 10px;
 
-    padding: 0 150px 0 10px;
+    padding: 0 150px 0 20px;
+    margin-top: 50px;
 }
 
 #footer div p{
@@ -234,4 +235,11 @@ nav {
     font-weight: bold;
     display: block;
     margin-bottom: 15px;
+}
+
+.copyright {
+    color: rgb(172, 101, 101);
+    font-size: 13px;
+    padding-left: 85px;
+    margin: 50px 0;
 }
