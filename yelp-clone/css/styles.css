@@ -207,5 +207,5 @@ nav {
 
 .category:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    border: 1px solid rgba(0, 0, 0, 0.448);
 }
