@@ -209,3 +209,29 @@ nav {
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.448);
 }
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+    padding: 0 150px 0 10px;
+}
+
+#footer div p{
+    font-size: 15px;
+    color: rgb(172, 101, 101);
+    margin: 10px 0;
+}
+
+#footer div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-heading {
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
