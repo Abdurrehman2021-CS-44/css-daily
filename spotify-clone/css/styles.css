@@ -67,7 +67,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 50px 28px 0;
+    margin: 40px 28px 0;
 }
 
 .library-options p{
@@ -131,3 +131,24 @@ body {
     cursor: pointer;
     transform: scale(1.03);
 }
+
+.library-scroller {
+    height: 157px;
+    overflow: auto;
+}
+
+/* .library-scroller::-webkit-scrollbar {
+    width: 10px;
+}
+
+.library-scroller::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.library-scroller::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.library-scroller::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+} */
