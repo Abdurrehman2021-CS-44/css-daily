@@ -137,6 +137,72 @@ body {
     overflow: auto;
 }
 
+.top-signup {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(38, 35, 35);
+    color: rgb(210, 176, 176);
+
+    font-weight: bold;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.top-signup .slide-buttons{
+    align-self: center;
+}
+
+.slide-buttons {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.top-signup-other-buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.top-signup-other-buttons p{
+    transition: 0.2s;
+}
+
+.top-signup-other-buttons p:hover{
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.top-signup-other-buttons button{
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.top-signup-other-buttons button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.top-signup-other-buttons .signup{
+    background: none;
+    border: 0;
+    color: rgb(210, 176, 176);
+}
+
+.top-signup-other-buttons .signup:hover{
+    color: white;
+}
+
+.top-signup-other-buttons .login{
+    border-radius: 35px;
+    padding: 0 20px;
+    border: 0;
+
+    margin: 10px 0;
+}
+
 /* .library-scroller::-webkit-scrollbar {
     width: 10px;
 }
