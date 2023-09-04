@@ -203,6 +203,38 @@ body {
     margin: 10px 0;
 }
 
+.buttom-signup {
+    background-color: rgb(143, 92, 190);
+    color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.signup-message .title{
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.buttom-signup button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    transition: 0.2s;
+}
+
+.buttom-signup button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.signup-message p{
+    margin: 0;
+}
+
 /* .library-scroller::-webkit-scrollbar {
     width: 10px;
 }
