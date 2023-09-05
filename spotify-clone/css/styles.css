@@ -240,7 +240,27 @@ body {
     border-radius: 10px;
     background-color: rgb(38, 35, 35);
     color: rgb(210, 176, 176);
-    padding: 10px;
+    padding: 20px;
+}
+
+.playlists-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.playlists-title h2{
+    margin: 0;
+}
+
+.playlists-title p{
+    font-weight: bold;
+}
+
+.playlists-title p:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .playlist-cards {
