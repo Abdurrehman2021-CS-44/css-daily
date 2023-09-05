@@ -243,18 +243,41 @@ body {
     padding: 10px;
 }
 
+.playlist-cards {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 35px;
+}
+
 .playlist-card {
-    background-color: rgb(65, 55, 55);
-    color: white;
+    background-color: rgb(59, 49, 49);
 
     padding: 10px;
     border-radius: 7px;
-    width: 160px;
+
+    width: 200px;
+    transition: 0.3s;
+}
+
+.playlist-card:hover{
+    cursor: pointer;
+    background-color: rgb(85, 72, 72);
+}
+
+.playlist-card-title {
+    font-weight: bold;
+    color: white;
+    margin: 15px 0;
+}
+
+.playlist-card-desc {
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .playlist-card-image-wrapper {
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
     overflow: hidden;
     border-radius: 7px;
 }
