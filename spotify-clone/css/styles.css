@@ -235,6 +235,36 @@ body {
     margin: 0;
 }
 
+.playlists {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(38, 35, 35);
+    color: rgb(210, 176, 176);
+    padding: 10px;
+}
+
+.playlist-card {
+    background-color: rgb(65, 55, 55);
+    color: white;
+
+    padding: 10px;
+    border-radius: 7px;
+    width: 160px;
+}
+
+.playlist-card-image-wrapper {
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.playlist-card-image-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* .library-scroller::-webkit-scrollbar {
     width: 10px;
 }
