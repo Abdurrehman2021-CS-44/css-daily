@@ -240,7 +240,7 @@ body {
     border-radius: 10px;
     background-color: rgb(38, 35, 35);
     color: rgb(210, 176, 176);
-    padding: 20px;
+    padding: 40px;
 }
 
 .playlists-title{
@@ -266,7 +266,7 @@ body {
 .playlist-cards {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 35px;
+    gap: 25px;
 }
 
 .playlist-card {
