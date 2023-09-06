@@ -312,6 +312,7 @@ body {
 .footer {
     display: flex;
     gap: 200px;
+    justify-content: space-between;
     margin-top: 90px;
 }
 
@@ -324,6 +325,21 @@ body {
     cursor: pointer;
     text-decoration: underline;
     color: white;
+}
+
+.social-icons i{
+    background-color: rgb(61, 54, 54);
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 70%;
+}
+
+.social-icons i:hover{
+    background-color: rgb(125, 110, 110);
+    cursor: pointer;
 }
 
 /* .library-scroller::-webkit-scrollbar {
