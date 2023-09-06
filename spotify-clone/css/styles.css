@@ -252,6 +252,7 @@ body {
 
 .playlists-title h2{
     margin: 0;
+    color: white;
 }
 
 .playlists-title p{
@@ -306,6 +307,23 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    gap: 200px;
+    margin-top: 90px;
+}
+
+.footer-title {
+    font-weight: bold;
+    color: white;
+}
+
+.footer div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
 }
 
 /* .library-scroller::-webkit-scrollbar {
