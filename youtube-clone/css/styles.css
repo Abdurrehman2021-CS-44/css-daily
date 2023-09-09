@@ -1,5 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(46, 43, 43);
+    color: white;
 }
 
 .header {
@@ -61,6 +63,8 @@ body {
 
 .header-middle input{
     padding: 6px 20px;
+    background-color: rgb(46, 43, 43);
+    border: 1px solid rgb(150, 136, 136);
 }
 
 .search{
@@ -68,8 +72,9 @@ body {
     right: 5px;
     padding: 5px 20px;
     font-size: 17px;
-    border: 1px solid black;
+    border: 1px solid rgb(150, 136, 136);
     border-radius: 0 15px 15px 0;
+    background-color: rgb(46, 43, 43);
 }
 
 .mic{
@@ -87,6 +92,7 @@ body {
 .header-middle .three-dots{
     background: none;
     border: 0;
+    color: white;
 }
 
 .header-middle .sign-in{
@@ -95,4 +101,5 @@ body {
     border-radius: 35px;
     color: blueviolet;
     border: 0.5px solid blueviolet;
+    background-color: rgb(46, 43, 43);
 }
