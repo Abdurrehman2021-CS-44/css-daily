@@ -130,3 +130,21 @@ div p .bi{
     cursor: pointer;
     background-color: rgb(93, 84, 84);
 }
+
+.extra-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 40px 0;
+}
+
+.extra-options p{
+    font-size: 14px;
+    margin: 0;
+    color: rgb(229, 214, 214);
+}
+
+.copyright {
+    font-size: 14px;
+    color: rgb(164, 150, 150);
+}
