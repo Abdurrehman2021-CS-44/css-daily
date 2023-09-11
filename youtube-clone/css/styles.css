@@ -107,3 +107,26 @@ body {
 div p .bi{
     margin: 0 20px;
 }
+
+.nav-bar {
+    width: 17%;
+}
+
+.nav-sign-in {
+    padding: 0 20px;
+}
+
+.nav-sign-in button{
+    font-size: 18px;
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: 0;
+    color: rgb(129, 129, 207);
+    background: none;
+    border: 0.3px solid white;
+}
+
+.nav-sign-in button:hover{
+    cursor: pointer;
+    background-color: rgb(93, 84, 84);
+}
