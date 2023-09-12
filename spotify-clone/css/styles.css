@@ -14,7 +14,6 @@ body {
     color: rgb(210, 176, 176);
 
     border-radius: 10px;
-    width: 20%;
 }
 
 .navbar p i{
@@ -35,7 +34,6 @@ body {
     /* padding: 7px 28px; */
 
     border-radius: 10px;
-    width: 24.2%;
 }
 
 .library-title {
@@ -346,6 +344,22 @@ body {
     
 }
 
+.screen {
+    display: flex;
+}
+
+.right-screen, .left-screen{
+    height: 90vh;
+
+}
+
+.left-screen{
+    width: 400px;
+}
+
+.right-screen {
+    overflow: scroll;
+}
 /* .library-scroller::-webkit-scrollbar {
     width: 10px;
 }
