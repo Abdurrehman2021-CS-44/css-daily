@@ -159,4 +159,19 @@ div p .bi{
     cursor: pointer;
 }
 
-.video-categories {}
+.video-categories {
+    display: flex;
+    gap: 10px;
+}
+
+.video-categories p{
+    background-color: rgba(255, 255, 255, 0.157);
+    padding: 5px 10px 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.video-categories p:hover{
+    background-color: rgba(255, 255, 255, 0.28);
+    cursor: pointer;
+}
