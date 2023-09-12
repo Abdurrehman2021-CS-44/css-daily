@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    background-color: black;
 }
 
 .navbar {
@@ -65,7 +66,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 40px 28px 0;
+    margin: 10px 28px 0;
 }
 
 .library-options p{
@@ -309,7 +310,7 @@ body {
 
 .footer {
     display: flex;
-    gap: 200px;
+    gap: 20px;
     justify-content: space-between;
     margin-top: 90px;
 }
@@ -333,6 +334,8 @@ body {
     font-size: 17px;
     padding: 10px;
     border-radius: 70%;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .social-icons i:hover{
@@ -340,16 +343,12 @@ body {
     cursor: pointer;
 }
 
-.copyright {
-    
-}
-
 .screen {
     display: flex;
 }
 
 .right-screen, .left-screen{
-    height: 90vh;
+    height: 94vh;
 
 }
 
@@ -360,6 +359,18 @@ body {
 .right-screen {
     overflow: scroll;
 }
+
+.buttom-signup {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+}
+
+.buttom-signup button{
+    margin-right: 30px;
+}
+
 /* .library-scroller::-webkit-scrollbar {
     width: 10px;
 }
