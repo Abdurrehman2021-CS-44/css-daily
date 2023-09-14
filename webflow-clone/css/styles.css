@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 48, 48);
+    color: white;
+    margin: 0;
+}
+
+.nav-left {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+
+    margin-left: 15px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    margin-right: 20px;
+}
+
+.nav-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+}
+
+.nav-option {
+    font-size: 16px;
+    color: rgb(195, 174, 174);
+}
+
+.nav-option:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 17px 0;
+}
+
+.nav-btn {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.nav-btn:hover {
+    cursor: pointer;
+}
+
+.nav-btn-contact {
+    border: 1px solid rgba(255, 255, 255, 0.266);
+    background: none;
+    color: white;
+    transition: 0.1s;
+}
+
+.nav-btn-contact:hover {
+    background-color: rgba(255, 255, 255, 0.133);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.nav-btn-get-started {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 0.4s;
+}
+
+.nav-btn-get-started:hover {
+    background-color: blue;
+}
