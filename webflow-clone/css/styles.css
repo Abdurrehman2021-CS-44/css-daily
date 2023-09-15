@@ -101,4 +101,32 @@ p {
     background-color: blueviolet;
     color: white;
     border: 0;
+    transition: 0.3s;
+}
+
+.header button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5%;
+    gap: 20px;
+
+    background-color: rgb(53, 48, 48);
+    color: white;
+}
+
+.feature h2{
+    font-size: 20px;
+}
+
+.feature p{
+    font-size: 16px;
+}
+
+.feature .bi{
+    margin-right: 5px;
 }
