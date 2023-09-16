@@ -131,3 +131,34 @@ p {
     margin-right: 5px;
 }
 
+.design {
+    margin: 5%;
+}
+
+.design h2{
+    font-size: 85px;
+    margin: 0;
+    width: 85%;
+}
+
+.design p{
+    font-size: 26px;
+    margin: 30px 0;
+    width: 55%;
+    line-height: 1.5;
+    color: rgb(92, 88, 88);
+}
+
+.design button{
+    font-size: 16px;
+    padding: 15px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: 0;
+    transition: 0.3s;
+}
+
+.design button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
