@@ -162,3 +162,34 @@ p {
     background-color: blue;
     cursor: pointer;
 }
+
+.design-features {
+    margin: 5%;
+    color: rgb(77, 69, 69);
+}
+
+.design-feature-title h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.design-feature-title .bi{
+    margin-right: 35px;
+}
+
+.design-feature {
+    margin: 80px 0;
+    width: 45%;
+}
+
+.bi {
+    font-size: 24px;
+}
+
+.design-feature-title {
+    display: flex;
+}
+
+.design-feature:hover{
+    cursor: pointer;
+}
