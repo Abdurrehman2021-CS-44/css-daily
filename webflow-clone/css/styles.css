@@ -81,7 +81,7 @@ p {
 .header {
     background-color: rgb(53, 48, 48);
     color: white;
-    padding: 7% 15% 10%;
+    padding: 7% 15%;
     text-align: center;
 }
 
@@ -112,7 +112,7 @@ p {
 .features {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 5%;
+    padding: 0 5% 5%;
     gap: 20px;
 
     background-color: rgb(53, 48, 48);
@@ -130,3 +130,4 @@ p {
 .feature .bi{
     margin-right: 5px;
 }
+
