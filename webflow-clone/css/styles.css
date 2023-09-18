@@ -224,3 +224,47 @@ p {
     background-color: blue;
     cursor: pointer;
 }
+
+.collab-and-seo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+}
+
+.collab-and-seo div {
+    background-color: rgba(255, 255, 255, 0.14);
+    padding: 30px;
+    margin: 34px 0;
+    overflow: hidden;
+    height: 550px;
+}
+
+.collab-and-seo div h4{
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+
+.collab-and-seo div p{
+    font-size: 17px;
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+.collab-and-seo div img{
+    width: 100%;
+    height: 400px;
+    /* object-fit: contain; */
+    opacity: 0.5;
+    transform: scale(1.1);
+    margin-top: 30px;
+}
+
+.collab-and-seo .collab img{
+    position: relative;
+    right: 40px;
+}
+
+.collab-and-seo .seo img{
+    position: relative;
+    left: 20px;   
+}
