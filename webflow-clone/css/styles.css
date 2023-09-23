@@ -368,3 +368,10 @@ p {
     color: rgb(163, 129, 129);
     cursor: pointer;
 }
+
+.footer {
+    padding: 5%;
+    background-color: rgb(53, 48, 48);
+    color: white;
+    font-weight: bold;
+}
