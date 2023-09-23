@@ -374,4 +374,21 @@ p {
     background-color: rgb(53, 48, 48);
     color: white;
     font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div div p{
+    color: rgb(168, 164, 156);
+    margin: 28px 0;
+    font-size: 15px;
+}
+
+.footer div div p:first-child{
+    color: white;
+}
+
+.footer div {
+    margin-top: 80px;
 }
