@@ -331,3 +331,22 @@ p {
     margin: 0;
     color: rgba(255, 255, 255, 0.68);
 }
+
+.get-started {
+    padding: 5%;
+    background-color: white;
+    color: rgb(53, 48, 48);
+}
+
+.get-started h3{
+    font-size: 80px;
+    width: 70%;
+    margin: 0;
+    color: black;
+}
+
+.get-started p{
+    font-size: 25px;
+    margin: 30px 0;
+    width: 53%;
+}
